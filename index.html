@@ -6,64 +6,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/styles.css" rel="stylesheet">
     </head>
+
+
     <body>
-        <div>
+        <div class="contenedor">
             <!---------Para la cabecera---------->
             <header>
-                <div><img src="img/logo.png" alt="Logo de la empresa"></div>
-                <!---lista de la cabecera-->
+                <!-------Logo------->
+                <div class="logo"><img src="img/logo.png" alt="Logo de la empresa"></div>
+                <!-------Menu----->
                 <nav>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Contactos</a></li>
+                        <li class="menu-item"><a href="#"><div>Inicio</div></a></li>
+                        <li class="menu-item"><a href="#"><div>Nosotros</div></a></li>
+                        <li class="menu-item"><a href="#"><div>Servicios</div></a></li>
+                        <li class="menu-item"><a href="#"><div>Contactos</div></a></li>
                     </ul>
                 </nav>
 
                 <!-----Imagen del banner---->
-                <div>
+                <div class="banner">
                     <img src="img/banner.jpg" alt="Banner o figura">
                 </div>
 
             </header>
 
             <!--------Video o imagen de presentacion------->
-            <section>
+            <section class="featured">
                 <!--Video-->
-                <video controls>
+                <video controls class="fp-video">
                     <source src="video/video01.mp4" type="video/mp4"> 
                     <source src="video/video01.ogv" type="video/ogg"> 
                 </video>
 
-                <article>
+                <article class="ft-art">
                     <h1>Titulo del Articulo</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Corrupti illo doloremque, tempora exercitationem sapiente 
                         dolorem, dolores dolor, ipsum non cumque laboriosam possimus 
                         est! Exercitationem vel neque commodi voluptates unde dolorem.</p>
+                    <div class="boton-container">
+                        <a href="#"><div class="boton"> Más Info</div></a>
+                    </div>
                 </article>
-                <div>
-                    <a href="#"> Más Info</a>
-                </div>
+                
             </section>
 
             <!------ Seccion con los articulos-------->
             <section>
                 <!-----Primer articulo-->
-                <article>
-                    <figure>
+                <article >
+                    <figure class="art-image">
                         <img src="img/article02.jpg" alt="Imagenn del Articulo">
                         <figcaption>Artículo 2</figcaption>
                     </figure>
-                    <div>
+                    <div class="art-cont">
                         <h1>Título del Articulo 2</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                             Corrupti illo doloremque, tempora exercitationem sapiente 
                             dolorem, dolores dolor, ipsum non cumque laboriosam possimus 
                             est! Exercitationem vel neque commodi voluptates unde dolorem.
                         </p>
-                        <div>
+                        <div class="art-footer">
                             <a href="#1">Mas info</a>
                             <a href="#2">Mucha mas info</a>
                         </div>
@@ -73,18 +77,18 @@
                 </article>
                 <!----Segundo Articulo-->
                 <article>
-                    <figure>
+                    <figure class="art-image">
                         <img src="img/article03.jpg" alt="Imagenn del Articulo">
                         <figcaption>Artículo 3</figcaption>
                     </figure>
-                    <div>
+                    <div class="art-cont">
                         <h1>Título del Articulo 2</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                             Corrupti illo doloremque, tempora exercitationem sapiente 
                             dolorem, dolores dolor, ipsum non cumque laboriosam possimus 
                             est! Exercitationem vel neque commodi voluptates unde dolorem.
                         </p>
-                        <div>
+                        <div class="art-footer">
                             <a href="#1">Mas info</a>
                             <a href="#2">Mucha mas info</a>
                         </div>

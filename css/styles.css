@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,100italic,300italic);
+
+/*Aplicado para toda la pagina*/
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/*Declarmos todas las etiquetas glovales y poner en margen 0*/
+h1,h2,h3,h4.h5,h6, figure,ul {
+    margin: 0;
+}
+
+/*Definimos el tamaño de la fuente*/ 
+h1{
+    font-size: 2em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color: #0BC5D8;
+}
+
+/*Para cuando pase el mouse por encima, el color de los vinculos*/
+a:hover {
+    color: #ea6e39;
+}
+/*Para cuando ya lo hayan visitado por decir asi*/
+a:visited {
+    color: #AAAAAA;
+}
+
+a:active {
+    color: #FF0000;
+}
+/*Para que ordene de forma horizontal los elementos*/
+.fp-video, .ft-art, .menu-item{
+    display: inline-block;
+}
+
+.contenedor {
+    max-width: 1024px;
+    margin: 0 auto;/*Arriba y abajo de 0 y a los costados automaticos*/
+} 
+
+.logo {
+    margin: 25px;
+    text-align: center;
+}
+
+/*--------Posicon y estilos del menu----------*/
+
+.items {
+    background-color: #2E353E;
+    text-align: center;
+}
+
+.menu-item {
+    text-transform: uppercase;
+}
+
+.menu-item a div {
+    padding: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu-item  :hover {
+    background-color: #0BC5D8;
+}
+
+/*Seccion del video y articulo*/
+.featured {
+    background-color:#F2F2F2;
+}
+
+.fp-video{
+    width: 55%;
+    padding: 2em;
+    vertical-align: top;
+}
+
+.ft-art {
+    width: 30%;
+    padding: 2em;
+    vertical-align: top;
+} 
+
+
+/*------Estilos para los botones----------*/
+.boton-container {
+    text-align: center;
+    background-color: #ea6e39;
+    margin: 0 auto;
+}
+
+.boton-container a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.boton-container :hover{
+    background-color: #1FBEA4;
+}
+
+.boton{
+    padding: 15px;
+}
+
+/*-------Estilo para los articulos--------*/
+
+article{
+    padding: 30px;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+.art-image {
+    display: inline-block;
+    width: 210px;
+    margin-right: 10px;
+}
+
+.art-cont {
+    display: inline-block;
+    width: 740px;
+    vertical-align: top;
+}
+
+figcaption {
+    background-color: #1FBEA4;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
+
+article h1{
+    border-bottom: solid thin black;
+}
