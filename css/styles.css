@@ -54,7 +54,7 @@ a:active {
 
 /*--------Posicon y estilos del menu----------*/
 
-.items {
+nav {
     background-color: #2E353E;
     text-align: center;
 }
@@ -72,7 +72,7 @@ a:active {
     color: #FFF;
 }
 
-.menu-item  :hover {
+.menu-item :hover {
     background-color: #0BC5D8;
 }
 
@@ -84,7 +84,7 @@ a:active {
 .fp-video{
     width: 55%;
     padding: 2em;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 
 .ft-art {
@@ -116,12 +116,11 @@ a:active {
 
 /*-------Estilo para los articulos--------*/
 
-article{
-    padding: 30px;
-    background-color: #f2f2f2;
-    margin: 20px;
-}
-
+ article{
+	padding: 30px;
+	background-color: #F2F2F2;
+	margin: 20px 0;
+ }
 .art-image {
     display: inline-block;
     width: 210px;
@@ -144,3 +143,14 @@ figcaption {
 article h1{
     border-bottom: solid thin black;
 }
+
+/*-------Estilos para footer------*/
+
+footer {
+    background-color: #2E353E;
+    color: #FFF;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+
